@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+    }
+    * {
+    box-sizing: inherit;
+    }
+
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-family: Orbitron, 'Libre Baskerville', 'Times New Roman', serif;
+    font-size: 3.5em;
+    margin: 1em 0;
+}
+
+p {
+    font-family: Roboto, Mulish, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+#mainpagecontent {
+    margin: 3em 3em 0 3em;
+    border: .1em solid #fff;
+    padding: 1em 3em;
+}
+
+#planetsbox {
+    margin: 3em 0 6em 0;
+    padding: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: .75em;
+}
+
+footer {
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.caption {
+    font-size: .8em;
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 630px) {
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #mainpagecontent {
+        font-size: .9em;
+        margin: 1em;
+        padding: 1em 1em;
+    }
+
+    #planetsbox {
+        margin: 1em 0;
+        padding: 1em;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    footer {
+        font-size: .9em;
+        margin-bottom: 1em;
+    }
+
+    caption {
+        font-size: .9em;
+    }
+}
