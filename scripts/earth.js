@@ -9,6 +9,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/chrisdecara/clq0ihuxh010x01p43yt0b
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
 }).addTo(map);
 
+//The above JS was gained via a previous assignment in this course; see the Leaflet assignment (Assignment 12) instructions. It was edited and changed to suit this project.
+
 let marker1 = L.marker([29.9792, 31.1342]).addTo(map);
 let marker2 = L.marker([36.4507,  28.2233]).addTo(map);
 let marker3 = L.marker([32.5355, 44.4275]).addTo(map);

@@ -68,6 +68,7 @@ Highcharts.chart('container', {
         data: [49, 74, 578, 0]
     }]
 });
+//The above JS was edited, but originally came from https://jsfiddle.net/api/post/library/pure/. That link itself is gained via Highcharts, which created the JS.
 
 document.getElementById("btnhome").onclick = function () {
     location.href = "mainpage.html";
