@@ -34,6 +34,17 @@ html {
         padding: 1em 3em;
     }
 
+    #mapcontainer {
+        max-width: 900px;
+        margin: auto;
+        padding: 2em 0 1em 0;
+    }
+
+   #mapid {
+    height: 500px;
+    width: 100%;
+}
+
     @media screen and (max-width: 630px) {
 
         h1 {
